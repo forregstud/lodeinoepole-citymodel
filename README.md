@@ -24,6 +24,8 @@
 
 Прежде чем начать формировать сценарии развития, требовалось понимание контекста ситуации и оценки г. Лодейного Поля предложенными библиотекой BlocksNet методами и метриками.
 
+> Перед запуском [скрипта](https://github.com/forregstud/lodeinoepole-citymodel/blob/main/pipeline.py) необходимо установить библиотеки.
+
 В рамках дисциплины «Цифровое моделирование урбанизированных территорий» были собраны и подготовлены геослои с [дорогами](https://github.com/forregstud/lodeinoepole-citymodel/blob/main/scenario_0/geojson%20files/railway.geojson), [железными дорогами](https://github.com/forregstud/lodeinoepole-citymodel/blob/main/scenario_0/geojson%20files/railway.geojson) и [зданиями](https://github.com/forregstud/lodeinoepole-citymodel/blob/main/scenario_0/geojson%20files/building.geojson) (с проставленными атрибутами population, building:levels, is_living). Эти данные, в частности, легли в основу предпроектного анализа, который включил в себя следующие шаги.
 
 1.	Отрисовку [геометрии границ города](https://github.com/forregstud/lodeinoepole-citymodel/blob/main/scenario_0/geojson%20files/boundaries.geojson) Лодейное Поле с включением в них территории проектирования (бывший военный аэродром).
