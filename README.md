@@ -13,7 +13,7 @@
 
 # Команда проекта:
 
-1.	Кураксина Варвара (аробация гипотез, анализ результатов, формирование гипотез и выводов, оформление репозитория) 
+1.	Кураксина Варвара (апробация гипотез, анализ результатов, формирование гипотез и выводов, оформление репозитория) 
 2.	Губина Алина (подготовка данных, расчёт ТЭП, формирование гипотез и выводов)
 3.	Липовская Дарья (подготовка данных, визуализация результатов, сбор презентации)
 4.	Басова Маргарита (предпроектное исследование)
@@ -32,6 +32,28 @@
 4.	Произведение на основе графа расчёта [матрицы доступности](https://github.com/forregstud/lodeinoepole-citymodel/blob/main/scenario_0/methods/accessibility.png) и [матрицы связности](https://github.com/forregstud/lodeinoepole-citymodel/blob/main/scenario_0/methods/connectivity.png). 
 5.	Произведение расчета обеспеченности территории [школами](https://github.com/forregstud/lodeinoepole-citymodel/blob/main/scenario_0/provision/school_provision.png), [детскими садами](https://github.com/forregstud/lodeinoepole-citymodel/blob/main/scenario_0/provision/kindergarten_provision.png), [торговыми центрами](https://github.com/forregstud/lodeinoepole-citymodel/blob/main/scenario_0/provision/mall_provision.png), [аптеками](https://github.com/forregstud/lodeinoepole-citymodel/blob/main/scenario_0/provision/pharmacy_provision.png), [МФЦ](https://github.com/forregstud/lodeinoepole-citymodel/blob/main/scenario_0/provision/multifunctional_center_provision.png), [супермаркетами](https://github.com/forregstud/lodeinoepole-citymodel/blob/main/scenario_0/provision/supermarket_provision.png), [барами](https://github.com/forregstud/lodeinoepole-citymodel/blob/main/scenario_0/provision/bar_provision.png), [кафе](https://github.com/forregstud/lodeinoepole-citymodel/blob/main/scenario_0/provision/cafe_provision.png), [отделениями почтовой связи](https://github.com/forregstud/lodeinoepole-citymodel/blob/main/scenario_0/provision/post_provision.png), [булочными](https://github.com/forregstud/lodeinoepole-citymodel/blob/main/scenario_0/provision/bakery_provision.png).
 6.	Реализация методов и метрик по подсчету [разнообразия сервисов](https://github.com/forregstud/lodeinoepole-citymodel/blob/main/scenario_0/methods/services_diversity.png), центральности ([населения](https://github.com/forregstud/lodeinoepole-citymodel/blob/main/scenario_0/methods/population_centrality.png), [сервисов](https://github.com/forregstud/lodeinoepole-citymodel/blob/main/scenario_0/methods/centrality.png)), [определению типа землепользования](https://github.com/forregstud/lodeinoepole-citymodel/blob/main/scenario_0/methods/landuseprediction.png) и морфотипа застройки ([SpaceMatrix](https://github.com/forregstud/lodeinoepole-citymodel/blob/main/scenario_0/methods/spacematrix.png)).
+
+Оценка Scenario 0 позволила результировать следующий контекст:
+
+### Обеспеченность сервисами
+**Школы**: обеспеченность школами в южной части недостаточная. Размещение дополнительной школы в проектном квартале должно улучшить обеспеченность школьными местами в южной части города.
+**Детские сады**: обеспеченность детскими садами в южной части недостаточная. Размещение дополнительного детского сада в проектном квартале должно улучшить обеспеченность местами в южной части города.
+**Супермаркет**: в целом весь город недостаточно обеспечен торговыми площадями исходя из показателя индекса Provision, поэтому необходимо размещение супермаркета на проектной территории.
+
+### Разнообразие сервисов
+Высокий индекс только в северной части города вдали от проектной территории. Размещение жилой застройки предполагает улучшение индекса в южной части города.
+
+### Spacematrix
+Город разделен на две части. С юга преобладает малоэтажная низкоплотная застройка. С севера примерно в равных пропорциях малоэтажная низкоплотная и среднеэтажная низкоплотная. Таким образом, в городе отсутствует высотная жилая застройка.
+
+### Оценка центральности по сервисам
+Сервисы сконцентрированы в северной части города. Размещение жилой застройки предполагает улучшение индекса в южной части города.
+
+### Оценка центральности по населению
+Центр города тяготеет в железнодорожной станции, которая разделяет город на две части - южную и северную. Размещение проектной территории должно расширить условный центр города по показателю размещению населения.
+
+### Вывод 
+Выбранное место для размещения новой жилой застройки должно улучшить обеспеченность сервисами в южной части города, и в городе в целом, так как южная часть города развита хуже чем северная и требуется размещение дополнительных сервисов и общественных центров для улучшения показателей обеспеченности сервисами и разнообразия в кварталах.
    
 # Гипотезы развития
 Ни для одного сценария **не были взяты за основу результаты применения инструмента rTeam** - платформы автоматизированного проектирования развития территории: команда осталась неудовлетворена сгенерированной квартальной сеткой, расположением домов, которые в большинстве случаев занимали целый квартал подобно жилому комплексу, распределением сервисов и неэффективным землепользованием, оставляющим значительные незаполненные пустыри.  В связи с этим, для каждого сценария развития были отрисованы улично-дорожная сеть, рассчитаны технико-экономические показатели (включая население), расставлены сервисы (как нормативно, так и ненормативно в зависимости от сценария) _вручную_. Произведены те же расчеты, что и для **Scenario 0**.
